@@ -1,0 +1,17 @@
+name: parkaccess
+
+channels:
+  - conda-forge
+
+dependencies:
+  - geopandas
+  - jupyterlab
+  - osmnx
+  - pandana
+  - pandas
+  - pysal
+  - python
+  - seaborn
+  - scikit-learn
+  - scipy
+  - statsmodels
