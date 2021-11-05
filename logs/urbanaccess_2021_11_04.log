@@ -1,0 +1,2 @@
+2021-11-04 20:26:25,595 INFO urbanaccess Successfully read store: data/final_net.h5 with the following keys: ['/edges', '/nodes']
+2021-11-04 20:26:29,050 INFO urbanaccess Successfully read store: data/final_net.h5 with the following keys: ['/edges', '/nodes']
