@@ -1,0 +1,15 @@
+2021-12-02 19:08:12,275 INFO osmnet Requesting network data within bounding box from Overpass API in 4 request(s)
+2021-12-02 19:08:12,275 INFO osmnet Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["highway"!~"motor|proposed|construction|abandoned|platform|raceway"]["foot"!~"no"]["pedestrians"!~"no"](37.42180000,-122.43250883,37.74590440,-121.98462441);>;);out;'}"
+2021-12-02 19:08:20,128 INFO osmnet Downloaded 76,530.0KB from www.overpass-api.de in 7.85 seconds
+2021-12-02 19:08:21,635 INFO osmnet Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["highway"!~"motor|proposed|construction|abandoned|platform|raceway"]["foot"!~"no"]["pedestrians"!~"no"](37.74289691,-122.43250883,38.06314595,-121.98021423);>;);out;'}"
+2021-12-02 19:08:35,158 INFO osmnet Downloaded 81,400.7KB from www.overpass-api.de in 13.52 seconds
+2021-12-02 19:08:36,760 INFO osmnet Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["highway"!~"motor|proposed|construction|abandoned|platform|raceway"]["foot"!~"no"]["pedestrians"!~"no"](37.73823531,-121.98462441,38.06314595,-121.54060000);>;);out;'}"
+2021-12-02 19:08:40,651 INFO osmnet Downloaded 33,512.4KB from www.overpass-api.de in 3.89 seconds
+2021-12-02 19:08:41,437 INFO osmnet Posting to http://www.overpass-api.de/api/interpreter with timeout=180, "{'data': '[out:json][timeout:180];(way["highway"]["highway"!~"motor|proposed|construction|abandoned|platform|raceway"]["foot"!~"no"]["pedestrians"!~"no"](37.42180000,-121.98896514,37.74289691,-121.54060000);>;);out;'}"
+2021-12-02 19:08:45,868 INFO osmnet Downloaded 35,765.3KB from www.overpass-api.de in 4.43 seconds
+2021-12-02 19:08:46,301 INFO osmnet Downloaded OSM network data within bounding box from Overpass API in 4 request(s) and 34.03 seconds
+2021-12-02 19:08:55,794 INFO osmnet 33,777 duplicate records removed. Took 9.47 seconds
+2021-12-02 19:09:01,891 INFO osmnet Returning OSM data with 1,513,700 nodes and 275,797 ways...
+2021-12-02 19:12:30,512 INFO osmnet Edge node pairs completed. Took 208.62 seconds
+2021-12-02 19:12:31,053 INFO osmnet Returning processed graph with 353,715 nodes and 990,742 edges...
+2021-12-02 19:12:31,053 INFO osmnet Completed OSM data download and Pandana node and edge table creation in 258.97 seconds
