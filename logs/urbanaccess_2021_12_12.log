@@ -1,0 +1,434 @@
+2021-12-12 11:59:38,012 INFO urbanaccess Added 1 feeds to gtfs_feeds: {'Bay Area Rapid Transit': 'http://www.bart.gov/dev/schedules/google_transit.zip'}
+2021-12-12 11:59:43,397 INFO urbanaccess Added 1 feeds to gtfs_feeds: {'ac transit': 'https://api.actransit.org/transit/gtfs/download?token=2512B81107A09D2DC44895CDDC650D47'}
+2021-12-12 12:01:25,649 INFO urbanaccess data/transit/gtfsfeed_zips does not exist. Directory was created
+2021-12-12 12:01:25,653 INFO urbanaccess 2 GTFS feed(s) will be downloaded here: data/transit/gtfsfeed_zips
+2021-12-12 12:01:26,250 INFO urbanaccess Bay Area Rapid Transit GTFS feed downloaded successfully. Took 0.60 seconds for 6,134,060.0KB
+2021-12-12 12:01:28,187 INFO urbanaccess ac transit GTFS feed downloaded successfully. Took 1.94 seconds for 13,809,219.0KB
+2021-12-12 12:01:28,188 INFO urbanaccess GTFS feed download completed. Took 2.53 seconds
+2021-12-12 12:01:28,188 INFO urbanaccess data/transit/gtfsfeed_text does not exist. Directory was created
+2021-12-12 12:01:28,446 INFO urbanaccess ac transit.zip successfully extracted to: data/transit/gtfsfeed_text/ac transit
+2021-12-12 12:01:28,558 INFO urbanaccess Bay Area Rapid Transit.zip successfully extracted to: data/transit/gtfsfeed_text/Bay Area Rapid Transit
+2021-12-12 12:01:28,558 INFO urbanaccess GTFS feed zipfile extraction completed. Took 0.37 seconds for 2 files
+2021-12-12 12:16:53,655 INFO urbanaccess Added 1 feeds to gtfs_feeds: {'Bay Area Rapid Transit': 'http://www.bart.gov/dev/schedules/google_transit.zip'}
+2021-12-12 12:17:06,284 INFO urbanaccess Added 1 feeds to gtfs_feeds: {'ac transit': 'https://api.actransit.org/transit/gtfs/download?token=2512B81107A09D2DC44895CDDC650D47'}
+2021-12-12 12:17:26,553 INFO urbanaccess 2 GTFS feed(s) will be downloaded here: data/transit/gtfsfeed_zips
+2021-12-12 12:17:27,127 INFO urbanaccess Bay Area Rapid Transit GTFS feed downloaded successfully. Took 0.57 seconds for 6,134,060.0KB
+2021-12-12 12:17:28,995 INFO urbanaccess ac transit GTFS feed downloaded successfully. Took 1.87 seconds for 13,809,219.0KB
+2021-12-12 12:17:28,996 INFO urbanaccess GTFS feed download completed. Took 2.44 seconds
+2021-12-12 12:17:29,256 INFO urbanaccess ac transit.zip successfully extracted to: data/transit/gtfsfeed_text/ac transit
+2021-12-12 12:17:29,373 INFO urbanaccess Bay Area Rapid Transit.zip successfully extracted to: data/transit/gtfsfeed_text/Bay Area Rapid Transit
+2021-12-12 12:17:29,373 INFO urbanaccess GTFS feed zipfile extraction completed. Took 0.38 seconds for 2 files
+2021-12-12 12:17:58,048 INFO urbanaccess Checking GTFS text file header whitespace... Reading files using encoding: utf-8 set in configuration.
+2021-12-12 12:17:58,051 INFO urbanaccess GTFS text file header whitespace check completed. Took 0.00 seconds
+2021-12-12 12:17:58,051 INFO urbanaccess --------------------------------
+2021-12-12 12:17:58,051 INFO urbanaccess Processing GTFS feed: gtfsfeed_zips
+2021-12-12 12:19:06,621 INFO urbanaccess Checking GTFS text file header whitespace... Reading files using encoding: utf-8 set in configuration.
+2021-12-12 12:19:06,807 INFO urbanaccess GTFS text file header whitespace check completed. Took 0.19 seconds
+2021-12-12 12:19:06,808 INFO urbanaccess --------------------------------
+2021-12-12 12:19:06,808 INFO urbanaccess Processing GTFS feed: ac transit
+2021-12-12 12:19:07,599 INFO urbanaccess The unique agency id: ac_transit was generated using the name of the agency in the agency.txt file.
+2021-12-12 12:19:07,623 INFO urbanaccess Unique agency id operation complete. Took 0.03 seconds
+2021-12-12 12:19:07,626 INFO urbanaccess Unique GTFS feed id operation complete. Took 0.00 seconds
+2021-12-12 12:19:07,631 WARNING urbanaccess WARNING: ac transit GTFS feed stops: 62 of 4,730 (1.31 percent of total) record(s) are outside the bounding box coordinates
+2021-12-12 12:19:07,632 INFO urbanaccess Records:
+2021-12-12 12:19:07,640 INFO urbanaccess      stop_id  stop_code                         stop_name  stop_desc  \
+155     6055      52695     S Milpitas Blvd & Yosemite Dr        NaN   
+165     4096      55834       S Garrard Blvd & Canal Blvd        NaN   
+311     4700      50608    N Milpitas Blvd & Beresford Ct        NaN   
+425     4168      51656     Market St & South Van Ness Av        NaN   
+655     4173      50489              Market St & Gough St        NaN   
+...      ...        ...                               ...        ...   
+4504    5842      50028  Salesforce Transit Center Bay 28        NaN   
+4521    5827      50008   Salesforce Transit Center Bay 8        NaN   
+4566    6053      52689         S Milpitas Blvd & Ames Av        NaN   
+4592    4912      58215      N Milpitas Blvd & Midwick Dr        NaN   
+4703    5840      50025  Salesforce Transit Center Bay 25        NaN   
+
+       stop_lat    stop_lon zone_id  stop_url  location_type  parent_station  \
+155   37.422076 -121.893133       E       NaN            NaN             NaN   
+165   37.929215 -122.379914       E       NaN            NaN             NaN   
+311   37.434441 -121.900851       E       NaN            NaN             NaN   
+425   37.775161 -122.419082       W       NaN            NaN             NaN   
+655   37.772829 -122.421947       W       NaN            NaN             NaN   
+...         ...         ...     ...       ...            ...             ...   
+4504  37.789650 -122.396049       W       NaN            NaN             NaN   
+4521  37.788300 -122.397757       W       NaN            NaN             NaN   
+4566  37.418935 -121.890289       E       NaN            NaN             NaN   
+4592  37.449585 -121.909934       E       NaN            NaN             NaN   
+4703  37.789598 -122.396430       W       NaN            NaN             NaN   
+
+      stop_timezone  wheelchair_boarding unique_agency_id unique_feed_id  
+155             NaN                    0       ac_transit   ac_transit_1  
+165             NaN                    0       ac_transit   ac_transit_1  
+311             NaN                    0       ac_transit   ac_transit_1  
+425             NaN                    0       ac_transit   ac_transit_1  
+655             NaN                    0       ac_transit   ac_transit_1  
+...             ...                  ...              ...            ...  
+4504            NaN                    0       ac_transit   ac_transit_1  
+4521            NaN                    0       ac_transit   ac_transit_1  
+4566            NaN                    0       ac_transit   ac_transit_1  
+4592            NaN                    0       ac_transit   ac_transit_1  
+4703            NaN                    0       ac_transit   ac_transit_1  
+
+[62 rows x 14 columns]
+2021-12-12 12:19:07,643 INFO urbanaccess Removed identified stops that are outside of bounding box.
+2021-12-12 12:19:07,644 INFO urbanaccess ac transit GTFS feed stops: coordinates are in northwest hemisphere. Latitude = North (90); Longitude = West (-90).
+2021-12-12 12:19:08,264 INFO urbanaccess Appended route type to stops
+2021-12-12 12:19:08,528 INFO urbanaccess Appended route type to stop_times
+2021-12-12 12:19:08,572 INFO urbanaccess --------------------------------
+2021-12-12 12:19:08,573 INFO urbanaccess --------------------------------
+2021-12-12 12:19:08,573 INFO urbanaccess Processing GTFS feed: Bay Area Rapid Transit
+2021-12-12 12:19:08,642 INFO urbanaccess The unique agency id: bay_area_rapid_transit was generated using the name of the agency in the agency.txt file.
+2021-12-12 12:19:08,645 INFO urbanaccess Unique agency id operation complete. Took 0.01 seconds
+2021-12-12 12:19:08,647 INFO urbanaccess Unique GTFS feed id operation complete. Took 0.00 seconds
+2021-12-12 12:19:08,649 WARNING urbanaccess WARNING: Bay Area Rapid Transit GTFS feed stops: 75 of 180 (41.67 percent of total) record(s) are outside the bounding box coordinates
+2021-12-12 12:19:08,649 INFO urbanaccess Records:
+2021-12-12 12:19:08,655 INFO urbanaccess     stop_id  stop_code                             stop_name  \
+27     EMBR        NaN                           Embarcadero   
+28     MONT        NaN                     Montgomery Street   
+29     POWL        NaN                         Powell Street   
+30     CIVC        NaN               Civic Center / UN Plaza   
+31     16TH        NaN                 16th Street / Mission   
+..      ...        ...                                   ...   
+171  SBRN_3        NaN  Enter/Exit : Station entrance (East)   
+172  SBRN_4        NaN  Enter/Exit : Station entrance (West)   
+173  SFIA_1        NaN         Enter/Exit : Station entrance   
+178  MLPT_1        NaN          Enter/Exit: Station entrance   
+179  BERY_1        NaN          Enter/Exit: Station entrance   
+
+                   stop_desc   stop_lat    stop_lon zone_id plc_url  \
+27                       NaN  37.792762 -122.397037    EMBR     NaN   
+28                       NaN  37.789173 -122.401587    MONT     NaN   
+29                       NaN  37.784606 -122.407331    POWL     NaN   
+30                       NaN  37.779408 -122.413826    CIVC     NaN   
+31                       NaN  37.765173 -122.419704    16TH     NaN   
+..                       ...        ...         ...     ...     ...   
+171  Station entrance (East)  37.637794 -122.416166     NaN     NaN   
+172  Station entrance (West)  37.637744 -122.416414     NaN     NaN   
+173         Station entrance  37.615911 -122.392665     NaN     NaN   
+178         Station entrance  37.410155 -121.890683     NaN     NaN   
+179         Station entrance  37.368488 -121.874458     NaN     NaN   
+
+     location_type parent_station        unique_agency_id  \
+27               0     place_EMBR  bay_area_rapid_transit   
+28               0     place_MONT  bay_area_rapid_transit   
+29               0     place_POWL  bay_area_rapid_transit   
+30               0     place_CIVC  bay_area_rapid_transit   
+31               0     place_16TH  bay_area_rapid_transit   
+..             ...            ...                     ...   
+171              2     place_SBRN  bay_area_rapid_transit   
+172              2     place_SBRN  bay_area_rapid_transit   
+173              2     place_SFIA  bay_area_rapid_transit   
+178              2     place_MLPT  bay_area_rapid_transit   
+179              2     place_BERY  bay_area_rapid_transit   
+
+               unique_feed_id  
+27   bay_area_rapid_transit_2  
+28   bay_area_rapid_transit_2  
+29   bay_area_rapid_transit_2  
+30   bay_area_rapid_transit_2  
+31   bay_area_rapid_transit_2  
+..                        ...  
+171  bay_area_rapid_transit_2  
+172  bay_area_rapid_transit_2  
+173  bay_area_rapid_transit_2  
+178  bay_area_rapid_transit_2  
+179  bay_area_rapid_transit_2  
+
+[75 rows x 12 columns]
+2021-12-12 12:19:08,656 INFO urbanaccess Removed identified stops that are outside of bounding box.
+2021-12-12 12:19:08,656 INFO urbanaccess Bay Area Rapid Transit GTFS feed stops: coordinates are in northwest hemisphere. Latitude = North (90); Longitude = West (-90).
+2021-12-12 12:19:08,690 INFO urbanaccess Appended route type to stops
+2021-12-12 12:19:08,702 INFO urbanaccess Appended route type to stop_times
+2021-12-12 12:19:08,767 INFO urbanaccess --------------------------------
+2021-12-12 12:19:08,995 INFO urbanaccess Added descriptive definitions to stops, routes, stop_times, and trips tables
+2021-12-12 12:19:10,472 INFO urbanaccess Successfully converted ['departure_time'] to seconds past midnight and appended new columns to stop_times. Took 1.48 seconds
+2021-12-12 12:19:10,479 INFO urbanaccess 2 GTFS feed file(s) successfully read as dataframes:
+2021-12-12 12:19:10,479 INFO urbanaccess      ac transit
+2021-12-12 12:19:10,479 INFO urbanaccess      Bay Area Rapid Transit
+2021-12-12 12:19:10,479 INFO urbanaccess      Took 3.86 seconds
+2021-12-12 12:19:34,099 INFO urbanaccess Using calendar to extract service_ids to select trips.
+2021-12-12 12:19:34,101 INFO urbanaccess 5 service_ids were extracted from calendar
+2021-12-12 12:19:34,109 INFO urbanaccess 4,645 trip(s) 27.82 percent of 16,697 total trip records were found in calendar for GTFS feed(s): ['ac transit', 'bay area rapid transit']
+2021-12-12 12:19:34,110 WARNING urbanaccess NOTE: If you expected more trips to have been extracted and your GTFS feed(s) have a calendar_dates file, consider utilizing the calendar_dates_lookup parameter in order to add additional trips based on information inside of calendar_dates. This should only be done if you know the corresponding GTFS feed is using calendar_dates instead of calendar to specify service_ids. When in doubt do not use the calendar_dates_lookup parameter.
+2021-12-12 12:19:34,124 INFO urbanaccess 4,645 of 16,697 total trips were extracted representing calendar day: saturday. Took 0.03 seconds
+2021-12-12 12:19:34,810 INFO urbanaccess There are no departure time records missing from trips following the specified schedule. There are no records to interpolate.
+2021-12-12 12:19:35,522 INFO urbanaccess Difference between stop times has been successfully calculated. Took 0.61 seconds
+2021-12-12 12:19:35,574 INFO urbanaccess Stop times from 11:00:00 to 14:00:00 successfully selected 30,214 records out of 177,409 total records (17.03 percent of total). Took 0.05 seconds
+2021-12-12 12:19:35,579 INFO urbanaccess Starting transformation process for 973 total trips...
+2021-12-12 12:19:36,639 INFO urbanaccess stop time table transformation to Pandana format edge table completed. Took 1.06 seconds
+2021-12-12 12:19:36,648 INFO urbanaccess Time conversion completed: seconds converted to minutes.
+2021-12-12 12:19:36,657 INFO urbanaccess 3,602 of 4,773 records selected from stops. Took 0.01 seconds
+2021-12-12 12:19:36,664 INFO urbanaccess stop time table transformation to Pandana format node table completed. Took 0.01 seconds
+2021-12-12 12:19:37,392 INFO urbanaccess route type successfully joined to transit edges. Took 0.73 seconds
+2021-12-12 12:19:37,430 INFO urbanaccess route id successfully joined to transit edges. Took 0.04 seconds
+2021-12-12 12:19:37,432 INFO urbanaccess Successfully created transit network. Took 3.35 seconds
+2021-12-12 12:19:43,424 INFO urbanaccess Stop times from 11:00:00 to 14:00:00 successfully selected 30,214 records out of 177,409 total records (17.03 percent of total). Took 0.01 seconds
+2021-12-12 12:19:43,555 INFO urbanaccess Starting route stop headway calculation for 4,675 route stops...
+2021-12-12 12:19:49,544 INFO urbanaccess Route stop headway calculation complete. Took 6.03 seconds
+2021-12-12 12:19:49,758 INFO urbanaccess headway calculation complete. Took 6.36 seconds
+2021-12-12 12:28:34,663 INFO urbanaccess checking for low connectivity nodes...
+2021-12-12 12:31:22,125 INFO urbanaccess 450 out of 301,183 nodes (0.15 percent of total) were identified as having low connectivity and have been removed.
+2021-12-12 12:31:22,356 INFO urbanaccess Completed OSM data download and graph node and edge table creation in 456.92 seconds
+2021-12-12 12:31:22,462 INFO urbanaccess Created OSM network with travel time impedance using a travel speed of 3 MPH. Took 0.01 seconds
+2021-12-12 12:33:18,131 INFO urbanaccess Loaded UrbanAccess network components comprised of:
+2021-12-12 12:33:18,132 INFO urbanaccess      Transit: 3,602 nodes and 29,241 edges;
+2021-12-12 12:33:18,132 INFO urbanaccess      OSM: 300,733 nodes and 838,954 edges
+2021-12-12 12:33:18,212 INFO urbanaccess routes successfully joined to transit nodes. Took 0.05 seconds
+2021-12-12 12:33:19,748 INFO urbanaccess Connector edges between the OSM and transit network nodes successfully completed. Took 1.53 seconds
+2021-12-12 12:33:19,748 INFO urbanaccess mean route stop headway will be used for pedestrian to transit edge impedance.
+2021-12-12 12:33:19,765 INFO urbanaccess Headway impedance calculation completed. Took 0.02 seconds
+2021-12-12 12:33:29,554 INFO urbanaccess Edge and node tables formatted for Pandana with integer node ids: id_int, to_int, and from_int. Took 8.64 seconds
+2021-12-12 12:33:29,732 INFO urbanaccess Network edge and node network integration completed successfully resulting in a total of 305,408 nodes and 903,084 edges:
+2021-12-12 12:33:29,733 INFO urbanaccess      Transit: 4,675 nodes 29,241 edges;
+2021-12-12 12:33:29,733 INFO urbanaccess      OSM: 300,733 nodes 838,954 edges; and
+2021-12-12 12:33:29,733 INFO urbanaccess      OSM/Transit connector: 34,889 edges.
+2021-12-12 12:34:22,830 INFO urbanaccess Figure created. Took 53.09 seconds
+2021-12-12 13:17:29,597 INFO urbanaccess Added 1 feeds to gtfs_feeds: {'Bay Area Rapid Transit': 'http://www.bart.gov/dev/schedules/google_transit.zip'}
+2021-12-12 13:17:29,603 INFO urbanaccess Added 1 feeds to gtfs_feeds: {'ac transit': 'https://api.actransit.org/transit/gtfs/download?token=2512B81107A09D2DC44895CDDC650D47'}
+2021-12-12 13:17:29,616 INFO urbanaccess 2 GTFS feed(s) will be downloaded here: data/transit/gtfsfeed_zips
+2021-12-12 13:17:30,252 INFO urbanaccess Bay Area Rapid Transit GTFS feed downloaded successfully. Took 0.64 seconds for 6,134,060.0KB
+2021-12-12 13:17:32,579 INFO urbanaccess ac transit GTFS feed downloaded successfully. Took 2.33 seconds for 13,809,219.0KB
+2021-12-12 13:17:32,579 INFO urbanaccess GTFS feed download completed. Took 2.96 seconds
+2021-12-12 13:17:32,835 INFO urbanaccess ac transit.zip successfully extracted to: data/transit/gtfsfeed_text/ac transit
+2021-12-12 13:17:32,935 INFO urbanaccess Bay Area Rapid Transit.zip successfully extracted to: data/transit/gtfsfeed_text/Bay Area Rapid Transit
+2021-12-12 13:17:32,935 INFO urbanaccess GTFS feed zipfile extraction completed. Took 0.36 seconds for 2 files
+2021-12-12 13:17:32,941 INFO urbanaccess Checking GTFS text file header whitespace... Reading files using encoding: utf-8 set in configuration.
+2021-12-12 13:17:33,118 INFO urbanaccess GTFS text file header whitespace check completed. Took 0.18 seconds
+2021-12-12 13:17:33,119 INFO urbanaccess --------------------------------
+2021-12-12 13:17:33,119 INFO urbanaccess Processing GTFS feed: ac transit
+2021-12-12 13:17:33,923 INFO urbanaccess The unique agency id: ac_transit was generated using the name of the agency in the agency.txt file.
+2021-12-12 13:17:33,946 INFO urbanaccess Unique agency id operation complete. Took 0.03 seconds
+2021-12-12 13:17:33,950 INFO urbanaccess Unique GTFS feed id operation complete. Took 0.00 seconds
+2021-12-12 13:17:33,952 WARNING urbanaccess WARNING: ac transit GTFS feed stops: 30 of 4,730 (0.63 percent of total) record(s) are outside the bounding box coordinates
+2021-12-12 13:17:33,953 INFO urbanaccess Records:
+2021-12-12 13:17:33,959 INFO urbanaccess      stop_id  stop_code                                 stop_name  stop_desc  \
+155     6055      52695             S Milpitas Blvd & Yosemite Dr        NaN   
+311     4700      50608            N Milpitas Blvd & Beresford Ct        NaN   
+756     6051      52686               S Milpitas Blvd & Garden St        NaN   
+885     5294      51342              Embarcadero Rd & Wildwood Ln        NaN   
+890     4694      54034              N Milpitas Blvd & Jacklin St        NaN   
+1122    5552      54329                      Roth Way & Campus Dr        NaN   
+1187    4690      57738                   Quarry Rd & Vineyard Ln        NaN   
+1209    4917      50678           N Milpitas Blvd & Washington Dr        NaN   
+1224    6041      52628          S Milpitas Blvd & Calaveras Blvd        NaN   
+1253    4913      57724              N Milpitas Blvd & Midwick Dr        NaN   
+1576    6054      52692             S Milpitas Blvd & Yosemite Dr        NaN   
+1933    6056      52696            S Milpitas Blvd & Turquoise St        NaN   
+2367    4689      55432                             Stanford Oval        NaN   
+2375    4916      54776           N Milpitas Blvd & Washington Dr        NaN   
+2825    4910      58105               N Milpitas Blvd & Hanson Ct        NaN   
+2942    6059      52702           S Milpitas Blvd & Los Coches St        NaN   
+3050    5301      51376                      Quarry Rd & Welch Rd        NaN   
+3098    6060      52705          N Milpitas Blvd & Town Center Dr        NaN   
+3255    6057      52698            S Milpitas Blvd & Turquoise St        NaN   
+3476    5295      51346              Embarcadero Rd & Wildwood Ln        NaN   
+3502    6040      52627          N Milpitas Blvd & Calaveras Blvd        NaN   
+3876    6052      52687                 S Milpitas Blvd & Ames Av        NaN   
+4226    6047      52671                   Milpitas BART VTA Bay 9        NaN   
+4231    4911      57344  N Milpitas Blvd & Jacklin Rd (N Abel St)        NaN   
+4330    6050      52685     S Milpitas Blvd & Montague Expressway        NaN   
+4354    4697      55384            N Milpitas Blvd & Escuela Pkwy        NaN   
+4365    4695      58354            N Milpitas Blvd & Escuela Pkwy        NaN   
+4456    6058      52701           S Milpitas Blvd & Los Coches St        NaN   
+4566    6053      52689                 S Milpitas Blvd & Ames Av        NaN   
+4592    4912      58215              N Milpitas Blvd & Midwick Dr        NaN   
+
+       stop_lat    stop_lon zone_id  stop_url  location_type  parent_station  \
+155   37.422076 -121.893133       E       NaN            NaN             NaN   
+311   37.434441 -121.900851       E       NaN            NaN             NaN   
+756   37.413988 -121.887365       E       NaN            NaN             NaN   
+885   37.446514 -122.127703       W       NaN            NaN             NaN   
+890   37.444385 -121.906545       E       NaN            NaN             NaN   
+1122  37.432291 -122.172658       W       NaN            NaN             NaN   
+1187  37.438343 -122.171449       W       NaN            NaN             NaN   
+1209  37.452121 -121.910476       E       NaN            NaN             NaN   
+1224  37.431844 -121.899571       E       NaN            NaN             NaN   
+1253  37.449544 -121.909624       E       NaN            NaN             NaN   
+1576  37.423035 -121.893408       E       NaN            NaN             NaN   
+1933  37.427381 -121.895819       E       NaN            NaN             NaN   
+2367  37.429272 -122.168925       W       NaN            NaN             NaN   
+2375  37.452228 -121.910203       E       NaN            NaN             NaN   
+2825  37.445893 -121.908567       E       NaN            NaN             NaN   
+2942  37.429855 -121.897755       E       NaN            NaN             NaN   
+3050  37.435959 -122.172625       W       NaN            NaN             NaN   
+3098  37.435398 -121.900731       E       NaN            NaN             NaN   
+3255  37.426747 -121.895739       E       NaN            NaN             NaN   
+3476  37.446667 -122.127542       W       NaN            NaN             NaN   
+3502  37.432893 -121.899591       E       NaN            NaN             NaN   
+3876  37.419596 -121.890633       E       NaN            NaN             NaN   
+4226  37.409768 -121.891745       E       NaN            NaN             NaN   
+4231  37.445280 -121.907239       E       NaN            NaN             NaN   
+4330  37.411878 -121.886829       E       NaN            NaN             NaN   
+4354  37.439477 -121.902034       E       NaN            NaN             NaN   
+4365  37.438583 -121.901667       E       NaN            NaN             NaN   
+4456  37.430176 -121.897858       E       NaN            NaN             NaN   
+4566  37.418935 -121.890289       E       NaN            NaN             NaN   
+4592  37.449585 -121.909934       E       NaN            NaN             NaN   
+
+      stop_timezone  wheelchair_boarding unique_agency_id unique_feed_id  
+155             NaN                    0       ac_transit   ac_transit_1  
+311             NaN                    0       ac_transit   ac_transit_1  
+756             NaN                    0       ac_transit   ac_transit_1  
+885             NaN                    0       ac_transit   ac_transit_1  
+890             NaN                    0       ac_transit   ac_transit_1  
+1122            NaN                    0       ac_transit   ac_transit_1  
+1187            NaN                    0       ac_transit   ac_transit_1  
+1209            NaN                    0       ac_transit   ac_transit_1  
+1224            NaN                    0       ac_transit   ac_transit_1  
+1253            NaN                    0       ac_transit   ac_transit_1  
+1576            NaN                    0       ac_transit   ac_transit_1  
+1933            NaN                    0       ac_transit   ac_transit_1  
+2367            NaN                    0       ac_transit   ac_transit_1  
+2375            NaN                    0       ac_transit   ac_transit_1  
+2825            NaN                    0       ac_transit   ac_transit_1  
+2942            NaN                    0       ac_transit   ac_transit_1  
+3050            NaN                    0       ac_transit   ac_transit_1  
+3098            NaN                    0       ac_transit   ac_transit_1  
+3255            NaN                    0       ac_transit   ac_transit_1  
+3476            NaN                    0       ac_transit   ac_transit_1  
+3502            NaN                    0       ac_transit   ac_transit_1  
+3876            NaN                    0       ac_transit   ac_transit_1  
+4226            NaN                    0       ac_transit   ac_transit_1  
+4231            NaN                    0       ac_transit   ac_transit_1  
+4330            NaN                    0       ac_transit   ac_transit_1  
+4354            NaN                    0       ac_transit   ac_transit_1  
+4365            NaN                    0       ac_transit   ac_transit_1  
+4456            NaN                    0       ac_transit   ac_transit_1  
+4566            NaN                    0       ac_transit   ac_transit_1  
+4592            NaN                    0       ac_transit   ac_transit_1  
+2021-12-12 13:17:33,960 INFO urbanaccess Removed identified stops that are outside of bounding box.
+2021-12-12 13:17:33,961 INFO urbanaccess ac transit GTFS feed stops: coordinates are in northwest hemisphere. Latitude = North (90); Longitude = West (-90).
+2021-12-12 13:17:34,529 INFO urbanaccess Appended route type to stops
+2021-12-12 13:17:34,779 INFO urbanaccess Appended route type to stop_times
+2021-12-12 13:17:34,825 INFO urbanaccess --------------------------------
+2021-12-12 13:17:34,825 INFO urbanaccess --------------------------------
+2021-12-12 13:17:34,825 INFO urbanaccess Processing GTFS feed: Bay Area Rapid Transit
+2021-12-12 13:17:34,893 INFO urbanaccess The unique agency id: bay_area_rapid_transit was generated using the name of the agency in the agency.txt file.
+2021-12-12 13:17:34,896 INFO urbanaccess Unique agency id operation complete. Took 0.01 seconds
+2021-12-12 13:17:34,898 INFO urbanaccess Unique GTFS feed id operation complete. Took 0.00 seconds
+2021-12-12 13:17:34,900 WARNING urbanaccess WARNING: Bay Area Rapid Transit GTFS feed stops: 17 of 180 (9.44 percent of total) record(s) are outside the bounding box coordinates
+2021-12-12 13:17:34,900 INFO urbanaccess Records:
+2021-12-12 13:17:34,905 INFO urbanaccess         stop_id  stop_code                       stop_name  \
+34         BALB        NaN                     Balboa Park   
+35         DALY        NaN                       Daly City   
+43         MLPT        NaN                        Milpitas   
+44         BERY        NaN      Berryessa / North San Jose   
+45         COLM        NaN                           Colma   
+46         SSAN        NaN             South San Francisco   
+83   place_BALB        NaN                     Balboa Park   
+84   place_DALY        NaN                       Daly City   
+92   place_MLPT        NaN                        Milpitas   
+93   place_BERY        NaN      Berryessa / North San Jose   
+94   place_COLM        NaN                           Colma   
+95   place_SSAN        NaN             South San Francisco   
+117      BALB_1        NaN  Enter/Exit : Geneva Ave (West)   
+118      BALB_2        NaN  Enter/Exit : Geneva Ave (East)   
+130      COLM_2        NaN      Enter/Exit : West Entrance   
+178      MLPT_1        NaN    Enter/Exit: Station entrance   
+179      BERY_1        NaN    Enter/Exit: Station entrance   
+
+              stop_desc   stop_lat    stop_lon zone_id  \
+34                  NaN  37.721747 -122.447457    BALB   
+35                  NaN  37.706259 -122.468908    DALY   
+43                  NaN  37.410277 -121.891081    MLPT   
+44                  NaN  37.368473 -121.874681    BERY   
+45                  NaN  37.684635 -122.466157    COLM   
+46                  NaN  37.664462 -122.444211    SSAN   
+83                  NaN  37.721747 -122.447457     NaN   
+84                  NaN  37.706259 -122.468908     NaN   
+92                  NaN  37.410277 -121.891081     NaN   
+93                  NaN  37.368473 -121.874681     NaN   
+94                  NaN  37.684635 -122.466157     NaN   
+95                  NaN  37.664462 -122.444211     NaN   
+117  Geneva Ave (South)  37.721974 -122.447499     NaN   
+118  Geneva Ave (North)  37.721954 -122.447314     NaN   
+130       West Entrance  37.684757 -122.466056     NaN   
+178    Station entrance  37.410155 -121.890683     NaN   
+179    Station entrance  37.368488 -121.874458     NaN   
+
+                                plc_url  location_type parent_station  \
+34                                  NaN              0     place_BALB   
+35                                  NaN              0     place_DALY   
+43                                  NaN              0     place_MLPT   
+44                                  NaN              0     place_BERY   
+45                                  NaN              0     place_COLM   
+46                                  NaN              0     place_SSAN   
+83   https://www.bart.gov/stations/balb              1            NaN   
+84   https://www.bart.gov/stations/daly              1            NaN   
+92   https://www.bart.gov/stations/mlpt              1            NaN   
+93   https://www.bart.gov/stations/bery              1            NaN   
+94   https://www.bart.gov/stations/colm              1            NaN   
+95   https://www.bart.gov/stations/ssan              1            NaN   
+117                                 NaN              2     place_BALB   
+118                                 NaN              2     place_BALB   
+130                                 NaN              2     place_COLM   
+178                                 NaN              2     place_MLPT   
+179                                 NaN              2     place_BERY   
+
+           unique_agency_id            unique_feed_id  
+34   bay_area_rapid_transit  bay_area_rapid_transit_2  
+35   bay_area_rapid_transit  bay_area_rapid_transit_2  
+43   bay_area_rapid_transit  bay_area_rapid_transit_2  
+44   bay_area_rapid_transit  bay_area_rapid_transit_2  
+45   bay_area_rapid_transit  bay_area_rapid_transit_2  
+46   bay_area_rapid_transit  bay_area_rapid_transit_2  
+83   bay_area_rapid_transit  bay_area_rapid_transit_2  
+84   bay_area_rapid_transit  bay_area_rapid_transit_2  
+92   bay_area_rapid_transit  bay_area_rapid_transit_2  
+93   bay_area_rapid_transit  bay_area_rapid_transit_2  
+94   bay_area_rapid_transit  bay_area_rapid_transit_2  
+95   bay_area_rapid_transit  bay_area_rapid_transit_2  
+117  bay_area_rapid_transit  bay_area_rapid_transit_2  
+118  bay_area_rapid_transit  bay_area_rapid_transit_2  
+130  bay_area_rapid_transit  bay_area_rapid_transit_2  
+178  bay_area_rapid_transit  bay_area_rapid_transit_2  
+179  bay_area_rapid_transit  bay_area_rapid_transit_2  
+2021-12-12 13:17:34,906 INFO urbanaccess Removed identified stops that are outside of bounding box.
+2021-12-12 13:17:34,906 INFO urbanaccess Bay Area Rapid Transit GTFS feed stops: coordinates are in northwest hemisphere. Latitude = North (90); Longitude = West (-90).
+2021-12-12 13:17:34,946 INFO urbanaccess Appended route type to stops
+2021-12-12 13:17:34,961 INFO urbanaccess Appended route type to stop_times
+2021-12-12 13:17:35,028 INFO urbanaccess --------------------------------
+2021-12-12 13:17:35,232 INFO urbanaccess Added descriptive definitions to stops, routes, stop_times, and trips tables
+2021-12-12 13:17:36,649 INFO urbanaccess Successfully converted ['departure_time'] to seconds past midnight and appended new columns to stop_times. Took 1.42 seconds
+2021-12-12 13:17:36,655 INFO urbanaccess 2 GTFS feed file(s) successfully read as dataframes:
+2021-12-12 13:17:36,656 INFO urbanaccess      ac transit
+2021-12-12 13:17:36,656 INFO urbanaccess      Bay Area Rapid Transit
+2021-12-12 13:17:36,656 INFO urbanaccess      Took 3.71 seconds
+2021-12-12 13:17:36,677 INFO urbanaccess Using calendar to extract service_ids to select trips.
+2021-12-12 13:17:36,678 INFO urbanaccess 5 service_ids were extracted from calendar
+2021-12-12 13:17:36,684 INFO urbanaccess 4,645 trip(s) 27.82 percent of 16,697 total trip records were found in calendar for GTFS feed(s): ['ac transit', 'bay area rapid transit']
+2021-12-12 13:17:36,684 WARNING urbanaccess NOTE: If you expected more trips to have been extracted and your GTFS feed(s) have a calendar_dates file, consider utilizing the calendar_dates_lookup parameter in order to add additional trips based on information inside of calendar_dates. This should only be done if you know the corresponding GTFS feed is using calendar_dates instead of calendar to specify service_ids. When in doubt do not use the calendar_dates_lookup parameter.
+2021-12-12 13:17:36,694 INFO urbanaccess 4,645 of 16,697 total trips were extracted representing calendar day: saturday. Took 0.03 seconds
+2021-12-12 13:17:37,343 INFO urbanaccess There are no departure time records missing from trips following the specified schedule. There are no records to interpolate.
+2021-12-12 13:17:38,026 INFO urbanaccess Difference between stop times has been successfully calculated. Took 0.58 seconds
+2021-12-12 13:17:38,076 INFO urbanaccess Stop times from 11:00:00 to 14:00:00 successfully selected 30,800 records out of 180,625 total records (17.05 percent of total). Took 0.05 seconds
+2021-12-12 13:17:38,081 INFO urbanaccess Starting transformation process for 986 total trips...
+2021-12-12 13:17:39,083 INFO urbanaccess stop time table transformation to Pandana format edge table completed. Took 1.01 seconds
+2021-12-12 13:17:39,090 INFO urbanaccess Time conversion completed: seconds converted to minutes.
+2021-12-12 13:17:39,098 INFO urbanaccess 3,622 of 4,863 records selected from stops. Took 0.01 seconds
+2021-12-12 13:17:39,103 INFO urbanaccess stop time table transformation to Pandana format node table completed. Took 0.00 seconds
+2021-12-12 13:17:39,756 INFO urbanaccess route type successfully joined to transit edges. Took 0.65 seconds
+2021-12-12 13:17:39,787 INFO urbanaccess route id successfully joined to transit edges. Took 0.03 seconds
+2021-12-12 13:17:39,789 INFO urbanaccess Successfully created transit network. Took 3.13 seconds
+2021-12-12 13:17:39,822 INFO urbanaccess Stop times from 11:00:00 to 14:00:00 successfully selected 30,800 records out of 180,625 total records (17.05 percent of total). Took 0.00 seconds
+2021-12-12 13:17:39,928 INFO urbanaccess Starting route stop headway calculation for 4,751 route stops...
+2021-12-12 13:17:45,905 INFO urbanaccess Route stop headway calculation complete. Took 6.01 seconds
+2021-12-12 13:17:46,110 INFO urbanaccess headway calculation complete. Took 6.31 seconds
+2021-12-12 13:22:23,071 INFO urbanaccess checking for low connectivity nodes...
+2021-12-12 13:26:18,236 INFO urbanaccess 546 out of 346,461 nodes (0.16 percent of total) were identified as having low connectivity and have been removed.
+2021-12-12 13:26:18,484 INFO urbanaccess Completed OSM data download and graph node and edge table creation in 512.19 seconds
+2021-12-12 13:26:18,599 INFO urbanaccess Created OSM network with travel time impedance using a travel speed of 3 MPH. Took 0.01 seconds
+2021-12-12 13:26:18,864 INFO urbanaccess Loaded UrbanAccess network components comprised of:
+2021-12-12 13:26:18,864 INFO urbanaccess      Transit: 3,622 nodes and 29,814 edges;
+2021-12-12 13:26:18,864 INFO urbanaccess      OSM: 345,915 nodes and 969,876 edges
+2021-12-12 13:26:18,938 INFO urbanaccess routes successfully joined to transit nodes. Took 0.05 seconds
+2021-12-12 13:26:20,449 INFO urbanaccess Connector edges between the OSM and transit network nodes successfully completed. Took 1.51 seconds
+2021-12-12 13:26:20,450 INFO urbanaccess mean route stop headway will be used for pedestrian to transit edge impedance.
+2021-12-12 13:26:20,465 INFO urbanaccess Headway impedance calculation completed. Took 0.02 seconds
+2021-12-12 13:26:30,967 INFO urbanaccess Edge and node tables formatted for Pandana with integer node ids: id_int, to_int, and from_int. Took 9.13 seconds
+2021-12-12 13:26:31,134 INFO urbanaccess Network edge and node network integration completed successfully resulting in a total of 350,666 nodes and 1,035,241 edges:
+2021-12-12 13:26:31,134 INFO urbanaccess      Transit: 4,751 nodes 29,814 edges;
+2021-12-12 13:26:31,134 INFO urbanaccess      OSM: 345,915 nodes 969,876 edges; and
+2021-12-12 13:26:31,134 INFO urbanaccess      OSM/Transit connector: 35,551 edges.
+2021-12-12 13:27:29,970 INFO urbanaccess Figure created. Took 58.83 seconds
