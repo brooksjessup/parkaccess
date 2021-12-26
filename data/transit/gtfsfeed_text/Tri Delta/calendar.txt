@@ -1,0 +1,4 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+72969,1,1,1,1,1,0,0,20211219,20221231
+72970,0,0,0,0,0,1,0,20211219,20221231
+72971,0,0,0,0,0,0,1,20211219,20221231

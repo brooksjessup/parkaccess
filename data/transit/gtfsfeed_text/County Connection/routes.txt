@@ -1,0 +1,39 @@
+route_long_name,route_type,route_text_color,route_color,agency_id,route_id,route_url,route_short_name
+Dublin BART/San Ramon,3,ffffff,9C629D,,335,,335
+Concord BART/Walnut Creek BART,3,ffffff,9C629D,,311,,311
+Concord BART/Clayton Rd,3,ffffff,9C629D,,310,,310
+BART Walnut Creek/Bishop Ranch,3,ffffff,DE9637,,96X,,96X
+Martinez Amtrak/Pleasant Hill BART,3,ffffff,9C629D,,316,,316
+Concord BART/Bel Air Dr,3,ffffff,9C629D,,315,,315
+Concord BART/DVC,3,ffffff,9C629D,,314,,314
+Pleasanton ACE/Mitchell Dr,3,ffffff,DE9637,,92X,,92X
+Lafayette BART/Saint Mary's College,3,ffffff,7A99AC,,250,,250
+Alamo Creek Shuttle,3,ffffff,46A076,,ALCR,,ALCR
+North Concord BART/Bates Ave,3,ffffff,006493,,27,,27
+DVC/Concord BART,3,ffffff,006493,,20,,20
+Walnut Creek BART/San Ramon,3,ffffff,006493,,21,,21
+Concord BART/Amtrak,3,ffffff,006493,,28,,28
+Martinez Amtrak/North Concord BART,3,ffffff,DE9637,,99X,,99X
+Rossmoor/Shadelands,3,ffffff,006493,,1,,1
+DVC/Concord BART,3,ffffff,9C629D,,320,,320
+Walnut Creek BART/San Ramon,3,ffffff,9C629D,,321,,321
+Walnut Creek BART/Creekside Dr,3,ffffff,46A076,,5,,5
+Walnut Creek BART/Broadway Plaza,3,ffffff,46A076,,4,,4
+Pleasant Hill BART/Shadelands,3,ffffff,46A076,,7,,7
+Lafayette BART/Orinda BART,3,ffffff,006493,,6,,6
+DVC/Walnut Creek BART,3,ffffff,006493,,9,,9
+San Ramon/BART Walnut Creek,3,ffffff,DE9637,,95X,,95X
+Walnut Creek BART/John Muir Med Ctr,3,ffffff,9C629D,,301,,301
+Dublin BART/Bishop Ranch,3,ffffff,DE9637,,97X,,97X
+Walnut Creek BART/Antioch BART,3,ffffff,DE9637,,93X,,93X
+Concord Commuter Express,3,ffffff,DE9637,,91X,,91X
+Concord BART/Pleasant Hill BART,3,ffffff,46A076,,11,,11
+Concord BART/Clayton Rd,3,ffffff,006493,,10,,10
+Martinez Amtrak/Walnut Creek BART,3,ffffff,DE9637,,98X,,98X
+Concord BART/Pleasant Hill BART,3,ffffff,006493,,15,,15
+Concord BART/Walnut Creek BART,3,ffffff,46A076,,14,,14
+Concord BART/North Concord BART,3,ffffff,006493,,17,,17
+Martinez Amtrak/Concord BART,3,ffffff,46A076,,16,,16
+Martinez Amtrak/Concord BART,3,ffffff,006493,,19,,19
+Martinez Amtrak/Pleasant Hill BART,3,ffffff,006493,,18,,18
+Dublin/Pleasanton BART/San Ramon,3,ffffff,006493,,35,,35

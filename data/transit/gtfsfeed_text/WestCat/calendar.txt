@@ -1,0 +1,21 @@
+service_id,service_name,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+c_21987_b_31042_d_96,New Express J (Weekend),0,0,0,0,0,1,1,20210918,20220228
+c_21987_b_31042_d_31,New Express J (Weekday),1,1,1,1,1,0,0,20210918,20220228
+c_21966_b_30949_d_31,Local - Sept 18th 2021 (Weekday),1,1,1,1,1,0,0,20210918,20220228
+c_19732_b_26131_d_32, Routes 11 & 19 Saturday  (Saturday only),0,0,0,0,0,1,0,20200418,20220228
+c_18303_b_23648_d_31,Lynx (Weekday),1,1,1,1,1,0,0,20210918,20220228
+c_1503_b_30622_d_4,School Calendar (Wednesday only),0,0,1,0,0,0,0,20220228,20220331
+c_1503_b_30622_d_31,School Calendar (Weekday),1,1,1,1,1,0,0,20220228,20220331
+c_1503_b_30622_d_27,School Calendar (MTuThF),1,1,0,1,1,0,0,20220228,20220331
+c_1503_b_30621_d_4,School Calendar (Wednesday only),0,0,1,0,0,0,0,20220119,20220218
+c_1503_b_30621_d_31,School Calendar (Weekday),1,1,1,1,1,0,0,20220119,20220218
+c_1503_b_30621_d_27,School Calendar (MTuThF),1,1,0,1,1,0,0,20220119,20220218
+c_1503_b_30620_d_4,School Calendar (Wednesday only),0,0,1,0,0,0,0,20220103,20220114
+c_1503_b_30620_d_31,School Calendar (Weekday),1,1,1,1,1,0,0,20220103,20220114
+c_1503_b_30620_d_27,School Calendar (MTuThF),1,1,0,1,1,0,0,20220103,20220114
+c_1503_b_30618_d_4,School Calendar (Wednesday only),0,0,1,0,0,0,0,20211129,20211217
+c_1503_b_30618_d_31,School Calendar (Weekday),1,1,1,1,1,0,0,20211129,20211217
+c_1503_b_30618_d_27,School Calendar (MTuThF),1,1,0,1,1,0,0,20211129,20211217
+c_1503_b_30617_d_4,School Calendar (Wednesday only),0,0,1,0,0,0,0,20210816,20211119
+c_1503_b_30617_d_31,School Calendar (Weekday),1,1,1,1,1,0,0,20210816,20211119
+c_1503_b_30617_d_27,School Calendar (MTuThF),1,1,0,1,1,0,0,20210816,20211119

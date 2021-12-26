@@ -1,0 +1,23 @@
+service_id,date,holiday_name,exception_type
+c_21987_b_31042_d_96,20220221,Presidents Day,1
+c_21987_b_31042_d_96,20220117,MLK,1
+c_21987_b_31042_d_96,20211126,Day After Thanksgiving,1
+c_21987_b_31042_d_96,20211125,Thanksgiving,1
+c_21987_b_31042_d_96,20211111,Veterans Day,1
+c_21987_b_31042_d_31,20220221,Presidents Day,2
+c_21987_b_31042_d_31,20211126,Day After Thanksgiving,2
+c_21987_b_31042_d_31,20211125,Thanksgiving,2
+c_21987_b_31042_d_31,20211111,Veterans Day,2
+c_21966_b_30949_d_31,20220221,Presidents Day,2
+c_21966_b_30949_d_31,20220117,MLK,2
+c_21966_b_30949_d_31,20211126,Day After Thanksgiving,2
+c_21966_b_30949_d_31,20211125,Thanksgiving,2
+c_21966_b_30949_d_31,20211111,Veterans Day,2
+c_19732_b_26131_d_32,20220221,Presidents Day,1
+c_19732_b_26131_d_32,20220101,New Years Day,2
+c_19732_b_26131_d_32,20211225,Chrimbo Day,2
+c_19732_b_26131_d_32,20211126,Day After Thanksgiving,1
+c_19732_b_26131_d_32,20211111,Veterans Day,1
+c_18303_b_23648_d_31,20220221,Presidents Day,2
+c_18303_b_23648_d_31,20211126,Day After Thanksgiving,2
+c_18303_b_23648_d_31,20211125,Thanksgiving,2
