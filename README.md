@@ -1,4 +1,4 @@
-# East Bay Regional Park Accessibility
+# Regional Park Accessibility in the San Francisco Bay Area
 *An accessibility analysis of the East Bay Regional Park District*
 
 ## 1. Problem Statement
