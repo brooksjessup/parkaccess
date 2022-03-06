@@ -24,7 +24,6 @@ Finally, the study calculates each neighborhood’s level of need for better acc
 With respect to travel distance, this study found that 62% (385 out of 621) of neighborhoods (i.e. census tracts) in the EBRPD’s two-county service area are over 30 minutes away on average from the nearest regional park via walking and public transit on a Saturday between 11am and 2pm. The majority of such low-transit-accessibility neighborhoods are located inland in the eastern portion of the service area where both population density and transit coverage are more sparse. However, there are also some neighborhoods with poor transit accessibility to regional parks that are located in the more urbnized and transit-rich areas along the western coastline.
 <img src="/img/travel_dist.png"
 alt="Travel Distance"
-width="500" height="600"
 />
 
 With respect to car ownership, 35% (180 out of 621) of neighborhoods in the service area have a percentage of households with no vehicle available that exceeds the regional average of 8%. These are the neighborhoods that are most likely to rely on public transit to access the regional park system. The majority of such low-car-accessibility neighborhoods are located in the densely-populated western coastal portion of the service area. However, some of these neighborhoods are also located inland as well.
