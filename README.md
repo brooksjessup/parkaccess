@@ -27,7 +27,9 @@ With respect to car ownership, 35% (180 out of 621) of neighborhoods in the serv
 
 When it comes to the overall level of need for greater accessibility, the two metrics of travel distance and car availability largely cancel each other out. In other words, the neighborhoods that are located more than 30 minutes away from the nearest regional park by transit are also the neighborhoods where households are mostly likely to have access to a car. However, this study found 117 neighborhoods where both travel distance is high and vehicle availability is low. These neighborhoods (represented on the map below in red) have the greatest need for better accessibility to the regional park system via public transit. The majority of these 117 neighborhoods are located in coastal cities like Oakland and Richmond, but a few are also located in inland cities such as Antioch and Concord.
 
-The results described above can be explored in greater detail on this interactive image: ![interactive map](/img/interactive_map.pnd).
+The results described above can be explored in greater detail on this interactive image:
+<img src="/img/interactive_map.png"
+alt="interactive map"/>
 
 ## 4. Conclusion & Next Steps
 This study identifies 117 neighborhoods in need of better transit access to the EBRPD’s regional park system. Households in these disadvantaged neighborhoods live on average more than half an hour from the nearest regional park by public transit and are also less likely to own a car than most other residents of Alameda and Contra Costa. It is the conclusion of this study that future efforts to increase the overall accessibility of the regional park system should focus on reducing the travel time for households in these 117 currently disadvantaged neighborhoods.
