@@ -35,7 +35,7 @@ alt="Need Level"/>
 
 The results described above can be explored in greater detail on this interactive map:
 <br><br>
-<a href="/maps.park_access_map.html">
+<a href="maps.park_access_map.html">
 <img src="/img/interactive_map.png"
 alt="Interactive Map"/>
 </a>
