@@ -34,10 +34,11 @@ When it comes to the overall level of need for greater accessibility, the two me
 alt="Need Level"/>
 
 The results described above can be explored in greater detail on this interactive map:
-<br>
-<br>
+<br><br>
+<a href="/maps.park_access_map.html">
 <img src="/img/interactive_map.png"
 alt="Interactive Map"/>
+</a>
 
 ## 4. Conclusion & Next Steps
 This study identifies 117 neighborhoods in need of better transit access to the EBRPD’s regional park system. Households in these disadvantaged neighborhoods live on average more than half an hour from the nearest regional park by public transit and are also less likely to own a car than most other residents of Alameda and Contra Costa. It is the conclusion of this study that future efforts to increase the overall accessibility of the regional park system should focus on reducing the travel time for households in these 117 currently disadvantaged neighborhoods.
