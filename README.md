@@ -22,21 +22,20 @@ Finally, the study calculates each neighborhood’s level of need for better acc
 ## 3. Results & Analysis
 
 With respect to travel distance, this study found that 62% (385 out of 621) of neighborhoods (i.e. census tracts) in the EBRPD’s two-county service area are over 30 minutes away on average from the nearest regional park via walking and public transit on a Saturday between 11am and 2pm. The majority of such low-transit-accessibility neighborhoods are located inland in the eastern portion of the service area where both population density and transit coverage are more sparse. However, there are also some neighborhoods with poor transit accessibility to regional parks that are located in the more urbnized and transit-rich areas along the western coastline.
-<br>
 <img src="/img/travel_dist.png"
 alt="Travel Distance"/>
 
 With respect to car ownership, 35% (180 out of 621) of neighborhoods in the service area have a percentage of households with no vehicle available that exceeds the regional average of 8%. These are the neighborhoods that are most likely to rely on public transit to access the regional park system. The majority of such low-car-accessibility neighborhoods are located in the densely-populated western coastal portion of the service area. However, some of these neighborhoods are also located inland as well.
-<br>
 <img src="/img/vehicle_availability.png"
 alt="Vehicle Availability"/>
 
 When it comes to the overall level of need for greater accessibility, the two metrics of travel distance and car availability largely cancel each other out. In other words, the neighborhoods that are located more than 30 minutes away from the nearest regional park by transit are also the neighborhoods where households are mostly likely to have access to a car. However, this study found 117 neighborhoods where both travel distance is high and vehicle availability is low. These neighborhoods (represented on the map below in red) have the greatest need for better accessibility to the regional park system via public transit. The majority of these 117 neighborhoods are located in coastal cities like Oakland and Richmond, but a few are also located in inland cities such as Antioch and Concord.
-<br>
 <img src="/img/need_level.png"
 alt="Need Level"/>
 
-The results described above can be explored in greater detail on this interactive map:<br>
+The results described above can be explored in greater detail on this interactive map:
+<br>
+<br>
 <img src="/img/interactive_map.png"
 alt="Interactive Map"/>
 
